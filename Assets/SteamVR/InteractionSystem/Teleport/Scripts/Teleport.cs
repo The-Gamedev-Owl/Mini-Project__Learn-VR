@@ -188,8 +188,7 @@ namespace Valve.VR.InteractionSystem
 
 			CheckForSpawnPoint();
 
-			// Show TeleportHint and make controller pulse for player to understand
-			//Invoke( "ShowTeleportHint", 5.0f );
+			Invoke( "ShowTeleportHint", 5.0f );
 		}
 
 
